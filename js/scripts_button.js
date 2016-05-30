@@ -1,8 +1,4 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#initially-showing").slideToggle();
-    $("#initially-hidden").slideToggle();
-  });
 
   $("button#light").click(function() {
     $("body").removeClass();
